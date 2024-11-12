@@ -1,5 +1,4 @@
 import {Pokemon} from "./PokemonType";
-import {Box, Button, TextField, Typography, Paper} from "@mui/material";
 
 interface PokemonViewProps extends Pokemon {
 

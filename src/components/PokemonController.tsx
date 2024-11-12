@@ -1,8 +1,8 @@
 import axios from "axios";
 import {PokemonView} from "./PokemonView";
-import {useCallback, useEffect, useState} from "react";
+import {useEffect, useState} from "react";
 import {Pokemon} from "./PokemonType";
-import {Button, TextField, Typography} from "@mui/material";
+import {Button, TextField} from "@mui/material";
 
 interface PokemonFromAPI {
     name: string
