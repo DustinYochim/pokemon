@@ -1,0 +1,111 @@
+
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
+html {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #d0e7f9, #ffffff);
+}
+
+.title {
+    font-family: 'Pokemon Solid', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    color: gold;
+    text-shadow:
+            -2px -2px 0 #000,
+            2px -2px 0 #000,
+            -2px  2px 0 #000,
+            2px  2px 0 #000;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.pokemonCard {
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    border: 10px solid gold;
+    background-color: navy;
+    color: white;
+    box-shadow: 10px 10px 10px #000;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Verdana', sans-serif;
+    position: relative;
+}
+
+.pokemonName {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px #FFD700;
+}
+
+.pokemonImg {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid #FFD700;
+    background-color: white;
+}
+
+.pokemonTypes {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.pokemonTypes span {
+    padding: 3px 8px;
+    border-radius: 15px;
+    background-color: #FFD700;
+    color: black;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.pokemonHeight, .pokemonWeight {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.pokemonMoves {
+    background-color: rgba(255, 215, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 12px;
+    overflow-y: auto;
+    height: 70px;
+    border: 1px solid #FFD700;
+    text-transform: capitalize;
+}
+
+footer {
+}
